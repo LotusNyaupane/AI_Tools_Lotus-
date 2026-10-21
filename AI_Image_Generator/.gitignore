@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# macOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Generated images (optional local storage)
+generated_images/
+
+# Temporary files
+*.log
